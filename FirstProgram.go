@@ -3,5 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello world!")
+	var name string
+	fmt.Print("Enter your name, please: ")
+	fmt.Scan(&name)
+	fmt.Println("Welcome to the PHP Programming Language Course, ", name, ")")
 }
